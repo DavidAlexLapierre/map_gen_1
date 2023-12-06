@@ -1,0 +1,34 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Configs/Colors.xml
+/copy:Configs/Colors.xml
+
+#begin Configs/World.xml
+/copy:Configs/World.xml
+
+#begin Configs/WorldCells.xml
+/copy:Configs/WorldCells.xml
+
+#begin Fonts/MainFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/MainFont.spritefont
+
+#begin Tilesets/16x16.png
+/copy:Tilesets/16x16.png
+

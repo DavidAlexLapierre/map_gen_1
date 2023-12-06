@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world_cells>
+    <cell name="water" tileset="Content/Tilesets/16x16.png" color="water" on_land="false">
+        <sprite x="0" y="0" w="16" h="16"/>
+    </cell>
+    <cell name="shallow_water" tileset="Content/Tilesets/16x16.png" color="shallow_water" on_land="false">
+        <sprite x="0" y="0" w="16" h="16"/>
+    </cell>
+    <cell name="land" tileset="Content/Tilesets/16x16.png" color="land">
+        <sprite x="32" y="0" w="16" h="16"/>
+        <sprite x="48" y="0" w="16" h="16"/>
+        <sprite x="64" y="0" w="16" h="16"/>
+        <sprite x="80" y="0" w="16" h="16"/>
+        <sprite x="96" y="0" w="16" h="16"/>
+    </cell>
+    <cell name="mountain" tileset="Content/Tilesets/16x16.png" color="mountain">
+        <sprite x="112" y="0" w="16" h="16"/>
+        <sprite x="128" y="0" w="16" h="16"/>
+    </cell>
+    <cell name="desert" tileset="Content/Tilesets/16x16.png" color="desert">
+        <sprite x="32" y="0" w="16" h="16"/>
+        <sprite x="48" y="0" w="16" h="16"/>
+        <sprite x="64" y="0" w="16" h="16"/>
+        <sprite x="80" y="0" w="16" h="16"/>
+        <sprite x="96" y="0" w="16" h="16"/>
+    </cell>
+    <cell name="forest" tileset="Content/Tilesets/16x16.png" color="forest">
+        <sprite x="144" y="0" w="16" h="16"/>
+        <sprite x="160" y="0" w="16" h="16"/>
+    </cell>
+</world_cells>

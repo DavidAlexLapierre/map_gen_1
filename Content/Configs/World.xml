@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world width="64" height="64">
+    <passes>
+        <pass>
+            <algos>
+                <algo type="simplex" roughness="0.072" strength="1.5" scale="100"/>
+                <algo type="square" roughness="1" strength="2.1" scale="3" minus="1"/>
+            </algos>
+            <cells>
+                <cell name="land" cutoff="100" />
+                <cell name="shallow_water" cutoff="-0.7"/>
+                <cell name="water" cutoff="-1"/>
+            </cells>
+        </pass>
+        <pass>
+            <algos>
+                <algo type="worley" roughness="1" strength="1" scale="25"/>
+            </algos>
+            <cells>
+                <cell name="mountain" cutoff="0.15" check_land="1"/>
+            </cells>
+        </pass>
+        <pass>
+            <algos>
+                <algo type="simplex" roughness="0.2" strength="1" scale="100"/>
+            </algos>
+            <cells>
+                <cell name="forest" cutoff="-0.35" check_land="1"/>
+            </cells>
+        </pass>
+    </passes>
+</world>

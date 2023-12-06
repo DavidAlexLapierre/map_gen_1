@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colors>
+    <color name="background" r="20" g="20" b="20"/>
+    <color name="text" r="255" g="255" b="255"/>
+    <color name="subtext" r="150" g="150" b="150"/>
+    <color name="title" r="251" g="255" b="134"/>
+    <color name="land" r="145" g="219" b="105"/>
+    <color name="water" r="77" g="155" b="230"/>
+    <color name="shallow_water" r="143" g="211" b="255"/>
+    <color name="mountain" r="155" g="171" b="178"/>
+    <color name="desert" r="253" g="203" b="176"/>
+    <color name="forest" r="178" g="186" b="144"/>
+</colors>
